@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.overlordtv" name="overlordtv" version="1.0" provider-name="MW">
-	<extension point="xbmc.addon.repository" name="overlordtv">
-		<info compressed="false">https://raw.githubusercontent.com/mikeywaldron/overlordtv/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/mikeywaldron/overlordtv/master/addons.xml</checksum>
-		<datadir zip="true">https://github.com/mikeywaldron/overlordtv/tree/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Top Source For All Your Needs</summary>
-		<description>Hosting File's for overlordtv </description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
     <addon id="plugin.video.overlordtv" version="1.2" name="Overlord TV" provider-name="overlordtv">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -29,5 +16,18 @@
         <source></source>
         <email></email>
     </extension>
+</addon>
+
+<addon id="repository.overlordtv" name="overlordtv" version="1.0" provider-name="MW">
+	<extension point="xbmc.addon.repository" name="overlordtv">
+		<info compressed="false">https://raw.githubusercontent.com/Overlordtv/Master/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Overlordtv/Master/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Overlordtv/Master/tree/master/Zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Top Source For All Your Needs</summary>
+		<description>Hosting File's for overlordtv </description>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
