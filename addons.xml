@@ -22,7 +22,7 @@
 	<extension point="xbmc.addon.repository" name="overlordtv">
 		<info compressed="false">https://raw.githubusercontent.com/Overlordtv/Download/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Overlordtv/Download/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Overlordtv/Download/</datadir>
+		<datadir zip="true">https://raw.githubusercontent.com/Overlordtv/Download/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Top Source For All Your Needs</summary>
